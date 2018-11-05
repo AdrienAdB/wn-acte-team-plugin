@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: id
+        type: number
+    is_active:
+        label: is_active
+        type: text
+    name:
+        label: name
+        type: text
+    position:
+        label: position
+        type: text
+    description:
+        label: description
+        type: text

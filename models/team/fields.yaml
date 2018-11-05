@@ -1,0 +1,62 @@
+fields:
+    is_active:
+        label: Switch
+        span: full
+        type: switch
+    name:
+        label: Name
+        span: auto
+        placeholder: 'John Doe'
+        type: text
+    position:
+        label: Position
+        span: auto
+        placeholder: CEO
+        type: text
+    img:
+        label: Image
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+            width: 100
+            height: 100
+        span: full
+        type: fileupload
+    description:
+        label: Description
+        size: large
+        span: full
+        type: textarea
+    socials:
+        label: 'Social Links'
+        prompt: 'Add new social link'
+        span: full
+        type: repeater
+        form:
+            fields:
+                social:
+                    label: Social
+                    options:
+                        facebook: Facebook
+                        linkedin: LinkedIn
+                        twitter: Twitter
+                        google-plus: 'Google +'
+                        instagram: Instagram
+                        pinterest: Pinterest
+                        youtube: Youtube
+                        vk: Vkontakte
+                        stack-overflow: 'Stack Overflow'
+                        slack: Slack
+                        github: Github
+                        dribbble: Dribble
+                        reddit-alien: Reddit
+                        envelope: Email
+                    span: auto
+                    type: dropdown
+                link:
+                    label: Link
+                    span: auto
+                    placeholder: 'http://facebook.com'
+                    type: text
