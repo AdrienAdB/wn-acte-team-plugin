@@ -11,6 +11,9 @@ class Team extends Model
     use \October\Rain\Database\Traits\Validation;
     use \October\Rain\Database\Traits\Sortable;
 
+    public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
+    public $translatable = ['position','description'];
+
     /*
      * Disable timestamps by default.
      * Remove this line if timestamps are defined in the database table.
