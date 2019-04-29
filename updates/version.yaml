@@ -6,3 +6,5 @@
 1.0.3:
     - 'sort_order default value missing'
     - update_table_acte_team_team.php
+1.0.4:
+    - 'added validation rules in Team model'

@@ -28,6 +28,10 @@ class Team extends Model
     ];
 
     public $rules = [
+      'is_active' => 'boolean',
+      'name' => 'required|string|max:64',
+      'position' => 'required|string|max:64',
+      'description' => 'nullable|string|max:255',
     ];
 
     public $table = 'acte_team_team';
