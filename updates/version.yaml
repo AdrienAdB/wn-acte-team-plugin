@@ -10,3 +10,6 @@
     - 'added validation rules in Team model'
 1.0.5:
     - 'fixed default string lenght (required by posgresql)'
+1.0.6:
+    - 'Updated table acte_team_team description str to text'
+    - builder_table_update_acte_team_team.php
