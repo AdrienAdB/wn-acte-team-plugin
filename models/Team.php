@@ -31,7 +31,7 @@ class Team extends Model
       'is_active' => 'boolean',
       'name' => 'required|string|max:64',
       'position' => 'required|string|max:64',
-      'description' => 'nullable|string|max:255',
+      'description' => 'nullable|string|max:2048',
     ];
 
     public $table = 'acte_team_team';
