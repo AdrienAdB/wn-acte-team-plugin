@@ -2,6 +2,7 @@ fields:
     is_active:
         label: 'acte.team::lang.fields.is_active'
         span: full
+        default: true
         type: switch
     name:
         label: 'acte.team::lang.fields.name'
