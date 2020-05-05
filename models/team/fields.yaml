@@ -1,43 +1,40 @@
 fields:
     is_active:
-        label: Switch
+        label: 'acte.team::lang.fields.is_active'
         span: full
         type: switch
     name:
-        label: Name
+        label: 'acte.team::lang.fields.name'
         span: auto
         placeholder: 'John Doe'
         type: text
     position:
-        label: Position
+        label: 'acte.team::lang.fields.position'
         span: auto
         placeholder: CEO
         type: text
     img:
-        label: Image
+        label: 'acte.team::lang.fields.image'
         mode: image
         useCaption: true
-        thumbOptions:
-            mode: crop
-            extension: auto
-            width: 100
-            height: 100
-        span: full
+        imageHeight: 250
+        imageWidth: 250
+        span: auto
         type: fileupload
     description:
-        label: Description
+        label: 'acte.team::lang.fields.description'
         size: large
         span: full
         type: textarea
     socials:
-        label: 'Social Links'
-        prompt: 'Add new social link'
+        label: 'acte.team::lang.fields.socials'
+        prompt: 'acte.team::lang.fields.socials_prompt'
         span: full
         type: repeater
         form:
             fields:
                 social:
-                    label: Social
+                    label: 'acte.team::lang.fields.social'
                     options:
                         facebook: Facebook
                         linkedin: LinkedIn
@@ -56,7 +53,7 @@ fields:
                     span: auto
                     type: dropdown
                 link:
-                    label: Link
+                    label: 'acte.team::lang.fields.link'
                     span: auto
                     placeholder: 'http://facebook.com'
                     type: text

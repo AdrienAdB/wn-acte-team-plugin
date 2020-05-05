@@ -1,7 +1,7 @@
 <?php namespace Acte\Team\Models;
 
 use Model;
-use Log;
+
 
 /**
  * Model

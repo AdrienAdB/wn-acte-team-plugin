@@ -1,13 +1,8 @@
-### Description
+# Details
 
-Team profile management, specially developed for MDB bootstrap PRO framework.
+Team profile management for MDB bootstrap framework.
 
+# Installation
 
-### Usage
-
-* Install plugin in plugins/acte/ with <code>git clone xxxxxxxxxx</code>
-* Insert component in your page.
-
-### Work to do
-
-* Add preferences in component properties.
+- Install Acte.team from marketplace
+- or `mkdir /plugins/acte && cd /plugins/acte && git clone https://github.com/acte-solutions/oc-plugin-team.git team`

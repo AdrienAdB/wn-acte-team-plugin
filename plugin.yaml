@@ -3,7 +3,7 @@ plugin:
     description: 'acte.team::lang.plugin.description'
     author: 'Acte Solutions'
     icon: oc-icon-users
-    homepage: 'https://acte-solutions.com'
+    homepage: 'https://github.com/acte-solutions/oc-plugin-team'
 permissions:
     acte.team.manage_team:
         tab: 'acte.team::lang.plugin.name'
