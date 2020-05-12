@@ -5,7 +5,7 @@
 <div class="col-md-6 col-lg-4 mb-4">
   <div class="card card-cascade">
     <div class="view view-cascade overlay">
-      <img class="card-img-top" src="{{ record.img.thumb('400', '300', 'crop')}}" alt="Card image cap">
+      <img class="card-img-top" src="{{ record.img.thumb('400', '300', 'crop')}}" alt="{{ record.name }}">
       <a>
         <div class="mask rgba-{{ __SELF__.property('mask') }}"></div>
       </a>
