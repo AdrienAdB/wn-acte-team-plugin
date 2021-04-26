@@ -8,10 +8,12 @@ use Model;
  */
 class Team extends Model
 {
-    use \October\Rain\Database\Traits\Validation;
-    use \October\Rain\Database\Traits\Sortable;
+    use \Winter\Storm\Database\Traits\Validation;
+    use \Winter\Storm\Database\Traits\Sortable;
 
-    public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
+    //https://github.com/wintercms/wn-translate-plugin
+    public $implement = ['@Winter.Translate.Behaviors.TranslatableModel'];
+    
     public $translatable = ['position','description'];
 
     /*
