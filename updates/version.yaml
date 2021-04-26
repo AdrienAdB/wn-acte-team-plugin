@@ -15,3 +15,5 @@
     - builder_table_update_acte_team_team.php
 1.0.7:
     - 'Added mask filter property in component team (MDBootstrap)'
+1.1.0:
+    - 'WinterCMS plugin. Forked from https://github.com/acte-solutions/oc-plugin-team'
