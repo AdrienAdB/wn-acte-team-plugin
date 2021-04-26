@@ -1,7 +1,7 @@
 plugin:
     name: 'acte.team::lang.plugin.name'
     description: 'acte.team::lang.plugin.description'
-    author: 'Acte Technology'
+    author: 'ACTE Technology'
     icon: oc-icon-users
     homepage: 'https://github.com/AdrienAdB/wn-acte-team-plugin'
 permissions:
